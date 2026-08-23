@@ -1,0 +1,22 @@
+[
+  {
+    "id": 1,
+    "name": "Stranger Things",
+    "rating": "8.7",
+    "description": "A group of young friends uncover supernatural mysteries in their small town.",
+    "genre": "Sci-Fi, Horror, Drama",
+    "Cast": "Millie Bobby Brown, Finn Wolfhard, David Harbour",
+    "img_url": "https://images.unsplash.com/photo-1489599849927-2ee91cede3ba",
+    "watch_url": "https://www.netflix.com/"
+  },
+  {
+    "id": 2,
+    "name": "Wednesday",
+    "rating": "8.0",
+    "description": "Wednesday Addams investigates mysterious events at Nevermore Academy.",
+    "genre": "Comedy, Fantasy, Mystery",
+    "Cast": "Jenna Ortega, Catherine Zeta-Jones, Luis Guzmán",
+    "img_url": "https://images.unsplash.com/photo-1518709268805-4e9042af9f23",
+    "watch_url": "https://www.netflix.com/"
+  }
+]
