@@ -1,0 +1,46 @@
+.card {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px,
+                rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+}
+
+.card img {
+    width: 100%;
+    display: block;
+}
+
+.card-content {
+    padding: 1.2rem;
+}
+
+.card-content h2,
+.card-content h3,
+.card-content p {
+    margin: 0.5rem 0;
+}
+
+.card-content h2,
+.card-content h3,
+.card-content p {
+    margin: 0;
+}
+
+.card-content h2 {
+    margin-bottom: 0.8rem;
+}
+
+.card-content h3 {
+    margin-bottom: 0.8rem;
+}
+
+.card-content p {
+    margin-bottom: 0.8rem;
+}
+
+.super_hit {
+    background-color: #7dcea0;
+}
+
+.average{
+
+background-color: #f7dc6f;
+}

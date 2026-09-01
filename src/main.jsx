@@ -1,9 +1,14 @@
 import { StrictMode } from "react";
 import { createRoot } from "react-dom/client";
-import Profile from "./components/Profile.jsx";
+import { App } from "./App.jsx";
+// import Profile from "./components/Profile.jsx";
+//import { practices } from "./practices.jsx";
+import "./index.css";
 
 createRoot(document.getElementById("root")).render(
   <StrictMode>
-    <Profile />
+    < App />
+    {/* <Profile /> */}
+    {/* < practices /> */}
   </StrictMode>
 );
