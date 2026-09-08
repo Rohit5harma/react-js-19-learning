@@ -11,6 +11,7 @@ const Buttonkaushik = styled.button`
   font-weight: bold;
   cursor: pointer;
 `;
+
 const Rating = styled.span`
   font-size: 1.6rem;
   padding: 0.2rem 0.6rem;
@@ -33,35 +34,45 @@ export const SeriesCard = ({ data }) => {
   return (
     <li className={styles.card}>
       <div>
-        <img src={img_url} alt={name} />
+        <img
+          src={img_url}
+          alt={name}
+        />
       </div>
 
       <div className={styles.cardContent}>
-        <h2>Name: {name}</h2>
-<h3>
-  Rating:{" "}
-  <Rating rating={rating}>
-    {rating}
-  </Rating>
-</h3>
-        <p>
-  <span className={styles.summary}>Summary:</span>{" "}
-  {description}
-</p>
-       
-        <p>
-          <strong>Genre:</strong> {genre?.join(", ")}
-        </p>
+        <div className="flex flex-col gap-6">
 
-        <p>
-          <strong>Cast:</strong> {cast?.join(", ")}
-        </p>
+          <h2>Name: {name}</h2>
 
-        <a href={watch_url} target="_blank" rel="noreferrer">
-          <Buttonkaushik rating={rating}>
-            Watch Now
-          </Buttonkaushik>
-        </a>
+          <h3>
+            Rating: <Rating rating={rating}>{rating}</Rating>
+          </h3>
+
+          <p>
+            <span className={styles.summary}>Summary:</span>{" "}
+            {description}
+          </p>
+
+          <p>
+            <strong>Genre:</strong> {genre?.join(", ")}
+          </p>
+
+          <p>
+            <strong>Cast:</strong> {cast?.join(", ")}
+          </p>
+
+          <a
+            href={watch_url}
+            target="_blank"
+            rel="noreferrer"
+          >
+            <Buttonkaushik rating={rating}>
+              Watch Now
+            </Buttonkaushik>
+          </a>
+
+        </div>
       </div>
     </li>
   );
