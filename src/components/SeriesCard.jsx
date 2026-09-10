@@ -41,7 +41,7 @@ export const SeriesCard = ({ data }) => {
       </div>
 
       <div className={styles.cardContent}>
-        <div className="flex flex-col gap-6">
+        <div className="flex flex-col gap-6 py-6[3.2rem] px-[1.2rem]">
 
           <h2>Name: {name}</h2>
 
@@ -49,10 +49,8 @@ export const SeriesCard = ({ data }) => {
             Rating: <Rating rating={rating}>{rating}</Rating>
           </h3>
 
-          <p>
-            <span className={styles.summary}>Summary:</span>{" "}
-            {description}
-          </p>
+          
+            <p className="text-3xl font-bold underline text-cyan-300">Summary : {description} </p>
 
           <p>
             <strong>Genre:</strong> {genre?.join(", ")}
