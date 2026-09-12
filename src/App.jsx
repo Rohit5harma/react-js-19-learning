@@ -28,13 +28,16 @@
 //   );
 // };
 
-import styles from "./components/Netflix.module.css";
-import { EventProps } from "./components/EventProps";
+// import styles from "./components/Netflix.module.css";
+// import { EventProps } from "./components/EventProps";
+import "./components/EV.css";
+import { EventPropagation } from "./components/EventPropagation";
 
 export const App = () => {
   return (
-    <section className={styles.container}>
-      <EventProps />
+    <section className="container">
+      {/* <EventProps /> */}
+      <EventPropagation />
     </section>
   );
 };
