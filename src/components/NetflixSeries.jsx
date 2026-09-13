@@ -15,4 +15,4 @@ const NetflixSeries = () => {
   );
 };
 
-export default NetflixSeries;
+export default NetflixSeries; 
