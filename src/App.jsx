@@ -31,17 +31,24 @@
 // import styles from "./components/Netflix.module.css";
 // import { EventProps } from "./components/EventProps";
 
-import { State } from "./components/hokes/State";
+
+
+import { DericedState } from "./components/DericedState";
+// import { State } from "./components/hokes/State";
 
 import "./components/EV.css";
 // import { EventPropagation } from "./components/EventPropagation";
 
 export const App = () => {
   return (
+    <>
     <section className="container">
       {/* <EventProps /> */}
       {/* <EventPropagation /> */}
-      <State />
+      {/* <State /> */}
+       <DericedState />
     </section>
+   
+    </>
   );
 };

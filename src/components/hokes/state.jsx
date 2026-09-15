@@ -8,6 +8,7 @@ export const State = () => {
   // };
 
   const [value, setValue] = useState(0);
+  console.log("parmanent Component render");
 
   const handleButtonClick = () => {
     setValue(value + 1);

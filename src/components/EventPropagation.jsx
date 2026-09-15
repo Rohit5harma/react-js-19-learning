@@ -27,7 +27,7 @@ export const EventPropagation = () => {
           </button>
 
         </div>
-
+ 
       </div>
 
     </section>
