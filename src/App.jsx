@@ -33,9 +33,10 @@
 
 
 
-import { DericedState } from "./components/DericedState";
+// import { DericedState } from "./components/DericedState";
 // import { State } from "./components/hokes/State";
-
+// import { LiftingState } from "./components/LiftStateUp";
+import { ToggleSwitch } from "./Projects/ToggleSwitch/ToggleSwitch";
 import "./components/EV.css";
 // import { EventPropagation } from "./components/EventPropagation";
 
@@ -46,7 +47,9 @@ export const App = () => {
       {/* <EventProps /> */}
       {/* <EventPropagation /> */}
       {/* <State /> */}
-       <DericedState />
+       {/* <DericedState /> */}
+       {/* <LiftingState /> */}
+       <ToggleSwitch />
     </section>
    
     </>
